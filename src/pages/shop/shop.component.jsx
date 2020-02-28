@@ -2,7 +2,7 @@ import React from 'react';
 
 import Shop_Data from './shop.data.jsx';
 
-import CollectionPreview from '../../components/collection-preview/collection-preview.component.jsx';
+import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
 class ShopPage extends React.Component {
     constructor(props) {
@@ -10,7 +10,7 @@ class ShopPage extends React.Component {
 
         this.state = {
             collections: Shop_Data                
-        }
+        };
     }
 
 
